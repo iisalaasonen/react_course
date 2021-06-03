@@ -1,0 +1,26 @@
+body {
+  background-color: #303534 ;
+
+}
+
+h2 {
+  color:white;
+}
+
+.buttons {
+  padding: 10px;
+  margin: 1em;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+
+}
+
+table, th, td {
+  color:white;
+  border: 1px white;
+}
+
+.container {
+  display: inline flex;
+}
