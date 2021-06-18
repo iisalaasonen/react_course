@@ -1,0 +1,25 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Sateenkaari",
+  "author": "Meri",
+  "url": "blogpost.sade.fi",
+  "likes": 10
+}
+
+###
+
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Muurahaisten päivä",
+  "author": "Elämää luonnossa",
+  "url": "blogpost.luonnonelämä.fi",
+  "likes": 25
+}
+
+###
+
+GET http://localhost:3003/api/blogs
